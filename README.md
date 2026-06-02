@@ -5,7 +5,7 @@
 
 ---
 
-## 👥 Integrantes
+Integrantes
 
 | Nome | Matrícula |
 |------|-----------|
@@ -17,13 +17,13 @@
 
 ---
 
-## 📋 Contextualização do Mini-Mundo
+Contextualização do Mini-Mundo
 
 A **RunwayRent** é uma empresa especializada no aluguel de peças de alta costura para eventos, operando por meio de assinatura mensal. Cada cliente possui uma **cota de peças por mês**, respeitando o limite contratado. O sistema controla a disponibilidade das peças por data, realiza o registro de devoluções, avalia possíveis danos nas peças devolvidas e aplica **multas proporcionais ao valor de mercado** quando necessário. Peças danificadas ficam indisponíveis durante o período de restauração.
 
 ---
 
-## 👤 Atores do Sistema
+Atores do Sistema
 
 | Ator | Função |
 |------|--------|
@@ -33,7 +33,7 @@ A **RunwayRent** é uma empresa especializada no aluguel de peças de alta costu
 
 ---
 
-## 📌 Diagrama de Casos de Uso
+Diagrama de Casos de Uso
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
@@ -80,7 +80,7 @@ A **RunwayRent** é uma empresa especializada no aluguel de peças de alta costu
 
 ---
 
-## 🗂️ Mapeamento de Casos de Uso
+Mapeamento de Casos de Uso
 
 | UC | Caso de Uso | Ator | RF Associado |
 |----|-------------|------|--------------|
@@ -96,7 +96,7 @@ A **RunwayRent** é uma empresa especializada no aluguel de peças de alta costu
 
 ---
 
-## ✅ Requisitos Funcionais
+Requisitos Funcionais
 
 | Código | Descrição |
 |--------|-----------|
@@ -112,7 +112,7 @@ A **RunwayRent** é uma empresa especializada no aluguel de peças de alta costu
 
 ---
 
-## 🔒 Requisitos Não Funcionais
+Requisitos Não Funcionais
 
 | Código | Descrição | Como foi atendido |
 |--------|-----------|-------------------|
@@ -125,7 +125,7 @@ A **RunwayRent** é uma empresa especializada no aluguel de peças de alta costu
 
 ---
 
-## 🏛️ Diagrama de Classes (UML — textual)
+Diagrama de Classes (UML — textual)
 
 ```
 ┌────────────────────────────────────────────────────────────────────────────┐
@@ -238,7 +238,7 @@ Exceções customizadas (todas herdam de Exception):
 
 ---
 
-## 📁 Estrutura do Projeto
+Estrutura do Projeto
 
 ```
 RunwayRent/
@@ -267,7 +267,7 @@ RunwayRent/
 
 ---
 
-## ▶️ Como compilar e executar
+Como compilar e executar
 
 ### Pré-requisito
 - Java 11 ou superior instalado
@@ -284,7 +284,7 @@ java runwayrent.Main
 
 ---
 
-## 💡 Fluxo principal de uso
+Fluxo principal de uso
 
 1. O sistema carrega dados iniciais (2 clientes e 4 peças) para facilitar testes.
 2. Acesse **Peças → Listar peças disponíveis** para ver as peças cadastradas.
